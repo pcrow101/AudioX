@@ -13,5 +13,7 @@ struct AudioXApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.automatic)
+        .defaultSize(width: 600, height: 500)
     }
 }
